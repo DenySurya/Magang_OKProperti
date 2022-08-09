@@ -36,6 +36,7 @@ darkToggle.addEventListener('click', function () {
     }
 });
 
+// SLIDE IMAGE DETAIL PRODUK
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     speed: 400,

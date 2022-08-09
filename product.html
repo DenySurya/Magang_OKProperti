@@ -92,7 +92,7 @@
                 </div>
                 <div class="flex w-full justify-start items-center  relative ">
                     <div class="flex w-full items-center  px-10 justify-center mb-2 ">
-                        <div class="flex w-full  shadow-lg">
+                        <div class="flex w-full fixed  shadow-lg">
                             <input type="text"
                                 class="px-10 py-2 lg:py-4 w-full text-sm rounded-tl-[5px] rounded-bl-[5px]"
                                 placeholder="Cari Berdasarkan Area, Nama Properti, Penyedia... ">
@@ -110,10 +110,10 @@
         </div>
     </section>
 
-    <section id="kesulitan" class="dark:bg-slate-700 bg-white pt-20 mt-4 pb-16">
+    <section id="hasilPencarian" class="dark:bg-slate-700 bg-white pt-20 mt-4 pb-16">
         <div class="container">
             <div class="grid grid-cols-4 lg:grid-cols-4  gap-4 md:gap-2">
-                <div class="col-span-1  ">
+                <div class="h-15 ">
                     <h1 class=" text-xl font-bold dark:text-white text-text1 text-left lg:text-md md:text-md
                     lg:text-left">
                         Hasil Pencarian
@@ -122,7 +122,7 @@
                         20 Properti Ditemukan
                     </p>
                 </div>
-                <div class="h-15  col-span-1  ">
+                <div class="h-15    ">
 
                     <button
                         class=" justify-start px-10 text-white bg-primary rounded-[5px] hover:shadow-lg hover:bg-primary2 shadow-lg">
@@ -131,7 +131,7 @@
                     </button>
 
                 </div>
-                <div class="h-15 col-span-1 ">
+                <div class="h-15  ">
 
                     <button
                         class="px-10 text-white bg-primary rounded-[5px]  hover:shadow-lg hover:bg-primary2 shadow-lg">
@@ -155,13 +155,13 @@
 
 
         <!-- PRODUK -->
-        <div class="container  py-2">
-            <div class="flex w-full  border-4 shadow-lg border-white bg-white drop-shadow-lg">
-                <div class="grid grid-rows-4 grid-cols-1  gap-4">
-                    <div class="row-span-3 h-15 ">
+        <div class="container w-full flex-wrap py-2">
+            <div class="relative flex w-full  border-4 shadow-lg border-white bg-white drop-shadow-lg">
+                <div class="">
+                    <div class="flex w-1/2 ">
                         <img width="395" height="290" src="http://source.unsplash.com/395x290?house" alt="" srcset="">
                     </div>
-                    <div class=" flex h-15 ">
+                    <div class=" flex w-1/2">
 
                         <div><a href="#">
                                 <h1 class="font-bold text-3xl">Villa Strategis Lokasi Tumbak Bayuh
@@ -182,26 +182,8 @@
 
                         </div>
 
-                        <!-- 
-                                <div>
-                                    <div class="px-10 py-5 flex justify-between  gap-20">
-                                        <img width="50" height="50" src="dist/images/kamar.svg" alt="">
-                                        <img width="50" height="50" src="dist/images/kamar.svg" alt="">
-                                        <img width="50" height="50" src="dist/images/kamar.svg" alt="">
-                                        <img width="50" height="50" src="dist/images/kamar.svg" alt="">
-                                    </div>
-                                    <div class="flex justify-between px-5 py-3">
-                                        <h2 class="text-left text-sm font-semibold">105 m² Luas Tanah</h2>
-                                        <h2 class="text-left text-sm px-10 font-semibold">2 Kamar</h2>
-                                        <h2 class="text-left text-sm px-5 font-semibold">90m² Luas Bangunan</h2>
-                                        <h2 class="text-left text-sm font-semibold">3 Kamar Mandi</h2>
-                                    </div>
-                                    <div class="py-5">
-                                        <h2 class="tracking-widest md:text-right font-bold">Avatar Solution</h2>
-                                    </div>
-                                </div> -->
                     </div>
-                    <div class=" flex h-15">
+                    <div class=" ">
 
                         <div
                             class=" drop-shadow-lg rounded-[5px] border-2 text-md lg:text-xl border-primary bg-white  py-3 px-4 font-bold dark:text-black">
@@ -211,8 +193,8 @@
 
                     </div>
 
-                    <!-- <div class="py-4 md:px-40 row-span-2 ">
-                        <div class="grid  grid-cols-4 md:grid-cols-4  gap-2 md:gap-4">
+                    <div class="py-4 md:px-40 row-span-2 ">
+                        <div class="grid  lg:grid-cols-4   gap-2 md:gap-4">
                             <div class=" h-15">
 
                                 <img width="50" height="50" class="mx-auto px-3" src="dist/images/luastanah.svg" alt=""
@@ -250,7 +232,7 @@
                                 </h2>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
 
             </div>

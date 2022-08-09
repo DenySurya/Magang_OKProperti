@@ -1584,6 +1584,11 @@ body {
     padding-bottom: 1rem;
   }
 
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .lg\:pt-36 {
     padding-top: 9rem;
   }
