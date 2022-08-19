@@ -110,3 +110,16 @@ hamburger.addEventListener('click', function () {
     urutBerdasarkan.classList.toggle('urut-berdasarkan-active');
     dropUrutkan.classList.toggle('hidden');
 });
+
+
+// NAVBAR FIXED
+window.onscroll = function () {
+    const hubungi = document.querySelector('#hubungi_pemilik');
+    const fixedHubungi = hubungi.offsetTop;
+
+    if (window.pageYOffset > fixedHubungi) {
+        hubungi.classList.add('hubungi_pemilik');
+    } else {
+        hubungi.classList.remove('hubungi_pemilik');
+    }
+};
